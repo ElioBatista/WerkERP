@@ -139,4 +139,3 @@ C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\WerkUI.pdb
 C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\Microsoft.Web.Infrastructure.xml
 C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\obj\Debug\WerkUI.pdb
-C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\obj\Debug\WerkUI.csprojResolveAssemblyReference.cache
