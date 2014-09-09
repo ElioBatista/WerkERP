@@ -186,6 +186,7 @@
     <Content Include="Liquidacion\BuscarClientes.aspx" />
     <Content Include="Liquidacion\BuscarLiquidaciones.aspx" />
     <Content Include="Liquidacion\Liquidaciones.aspx" />
+    <Content Include="OrdenPago\OrdenPago.aspx" />
     <Content Include="packages.config" />
     <Content Include="CodeTemplates\ReverseEngineerCodeFirst\Context.tt" />
     <Content Include="CodeTemplates\ReverseEngineerCodeFirst\Entity.tt" />
@@ -401,6 +402,13 @@
     <Compile Include="Models\V_LIQUIDACIONES.cs" />
     <Compile Include="Models\V_ORDEN_PAGO_DETALLES.cs" />
     <Compile Include="Models\WerkERPContext.cs" />
+    <Compile Include="OrdenPago\OrdenPago.aspx.cs">
+      <DependentUpon>OrdenPago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrdenPago\OrdenPago.aspx.designer.cs">
+      <DependentUpon>OrdenPago.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ProFormaFacturacion\BuscarPreFactura.aspx.cs">
       <DependentUpon>BuscarPreFactura.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -149,3 +149,4 @@ C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\es\EntityFramework.resour
 C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\es\System.Web.Providers.resources.dll
 C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
 C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\obj\Debug\WerkUI.pdb
+C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\obj\Debug\WerkUI.csprojResolveAssemblyReference.cache
