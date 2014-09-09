@@ -1,0 +1,134 @@
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\WerkUI.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\WerkUI.pdb
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.Core.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\EntityFramework.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\System.Web.Providers.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\EntityFramework.xml
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.Core.xml
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\es\EntityFramework.resources.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\es\System.Web.Providers.resources.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\obj\Debug\WerkUI.dll
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\obj\Debug\WerkUI.pdb
+C:\Users\balbuenc\documents\visual studio 2012\Projects\WerkERP Solution\WerkUI\obj\Debug\WerkUI.csprojResolveAssemblyReference.cache
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\WerkUI.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\WerkUI.pdb
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.Core.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\EntityFramework.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\System.Web.Providers.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\EntityFramework.xml
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.Core.xml
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\es\EntityFramework.resources.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\es\System.Web.Providers.resources.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\obj\Debug\WerkUI.csprojResolveAssemblyReference.cache
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\obj\Debug\WerkUI.dll
+C:\Users\Ricar\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkUI\obj\Debug\WerkUI.pdb
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.Core.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\EntityFramework.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\System.Web.Providers.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\EntityFramework.xml
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.Core.xml
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\es\EntityFramework.resources.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\es\System.Web.Providers.resources.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\obj\Debug\WerkUI.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\obj\Debug\WerkUI.pdb
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\WerkUI.dll
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\bin\WerkUI.pdb
+C:\Users\Ricar\Documents\Visual Studio 2010\Projects\WerkERP Solution\WerkUI\obj\Debug\WerkUI.csprojResolveAssemblyReference.cache
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\WerkUI.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\WerkUI.pdb
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.Core.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\EntityFramework.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\System.Web.Providers.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\EntityFramework.xml
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.Core.xml
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\es\EntityFramework.resources.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\es\System.Web.Providers.resources.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\obj\Debug\WerkUI.dll
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\obj\Debug\WerkUI.pdb
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\WerkUI.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\WerkUI.pdb
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.Core.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\EntityFramework.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\System.Web.Providers.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\EntityFramework.xml
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.Core.xml
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\es\EntityFramework.resources.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\es\System.Web.Providers.resources.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\obj\Debug\WerkUI.dll
+C:\Users\balbuenc\Documents\Visual Studio 2012\Projects\WerkERP Solution\WerkERP Solution\WerkUI\obj\Debug\WerkUI.pdb
+C:\Users\QuBit\Google Drive\Sallustro\WerkERP Solution\WerkUI\obj\Debug\WerkUI.csprojResolveAssemblyReference.cache
