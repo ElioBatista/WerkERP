@@ -32,15 +32,6 @@ namespace WerkUI.Models.Mapping
             this.Property(t => t.DESTIPOPAGO).HasColumnName("DESTIPOPAGO");
             this.Property(t => t.PRIORIDAD).HasColumnName("PRIORIDAD");
             this.Property(t => t.FECGRA).HasColumnName("FECGRA");
-
-            // Relationships
-            this.HasOptional(t => t.PLANCUENTA)
-                .WithMany(t => t.TIPOPAGOes)
-                .HasForeignKey(d => d.CODPLANCUENTA);
-            this.HasOptional(t => t.USUARIO)
-                .WithMany(t => t.TIPOPAGOes)
-                .HasForeignKey(d => new { d.CODUSUARIO, d.CODEMPRESA });
-
         }
     }
 }

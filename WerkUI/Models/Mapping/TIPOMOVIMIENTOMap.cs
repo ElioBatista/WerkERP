@@ -30,12 +30,6 @@ namespace WerkUI.Models.Mapping
             this.Property(t => t.NUMTIPOMOVIMIENTO).HasColumnName("NUMTIPOMOVIMIENTO");
             this.Property(t => t.DESTIPOMOVIMIENTO).HasColumnName("DESTIPOMOVIMIENTO");
             this.Property(t => t.FECGRA).HasColumnName("FECGRA");
-
-            // Relationships
-            this.HasOptional(t => t.USUARIO)
-                .WithMany(t => t.TIPOMOVIMIENTOes)
-                .HasForeignKey(d => new { d.CODUSUARIO, d.CODEMPRESA });
-
         }
     }
 }

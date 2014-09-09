@@ -29,21 +29,6 @@ namespace WerkUI.Models.Mapping
             this.Property(t => t.FECGRA).HasColumnName("FECGRA");
             this.Property(t => t.CODUSUARIOACEPTA).HasColumnName("CODUSUARIOACEPTA");
             this.Property(t => t.CODUSUARIODIF).HasColumnName("CODUSUARIODIF");
-
-            // Relationships
-            this.HasOptional(t => t.TIPOCOMPROBANTE)
-                .WithMany(t => t.ORDENPAGOCLIENTEs)
-                .HasForeignKey(d => d.CODCOMPROBANTE);
-            this.HasOptional(t => t.USUARIO)
-                .WithMany(t => t.ORDENPAGOCLIENTEs)
-                .HasForeignKey(d => new { d.CODUSUARIO, d.CODEMPRESA });
-            this.HasOptional(t => t.USUARIO1)
-                .WithMany(t => t.ORDENPAGOCLIENTEs1)
-                .HasForeignKey(d => new { d.CODUSUARIOACEPTA, d.CODEMPRESA });
-            this.HasOptional(t => t.USUARIO2)
-                .WithMany(t => t.ORDENPAGOCLIENTEs2)
-                .HasForeignKey(d => new { d.CODUSUARIODIF, d.CODEMPRESA });
-
         }
     }
 }

@@ -29,6 +29,7 @@ namespace WerkUI.Models
         public Nullable<decimal> CODDESPACHANTE { get; set; }
         public Nullable<decimal> CODCLIENTE { get; set; }
         public Nullable<decimal> CODUSUARIO { get; set; }
-        public Nullable<decimal> CodEmpresa { get; set; }
+        public Nullable<decimal> CODEMPRESA { get; set; }
+        public string Tipo_Movimiento { get; set; }
     }
 }

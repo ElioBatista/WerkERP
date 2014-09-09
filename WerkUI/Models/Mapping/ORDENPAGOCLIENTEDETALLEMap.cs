@@ -41,30 +41,6 @@ namespace WerkUI.Models.Mapping
             this.Property(t => t.IMPORTEACEPTADO).HasColumnName("IMPORTEACEPTADO");
             this.Property(t => t.CODVENTA).HasColumnName("CODVENTA");
             this.Property(t => t.OBSERVACION).HasColumnName("OBSERVACION");
-
-            // Relationships
-            this.HasOptional(t => t.DEBITO)
-                .WithMany(t => t.ORDENPAGOCLIENTEDETALLEs)
-                .HasForeignKey(d => d.CODDEBITO);
-            this.HasOptional(t => t.DEBITO1)
-                .WithMany(t => t.ORDENPAGOCLIENTEDETALLEs1)
-                .HasForeignKey(d => d.CODDEBITO);
-            this.HasRequired(t => t.DESPACHOINTERNO)
-                .WithMany(t => t.ORDENPAGOCLIENTEDETALLEs)
-                .HasForeignKey(d => d.CODDESPACHOINTERNO);
-            this.HasOptional(t => t.MONEDA)
-                .WithMany(t => t.ORDENPAGOCLIENTEDETALLEs)
-                .HasForeignKey(d => d.CODMONEDA);
-            this.HasRequired(t => t.ORDENPAGOCLIENTE)
-                .WithMany(t => t.ORDENPAGOCLIENTEDETALLEs)
-                .HasForeignKey(d => d.CODORDENPAGOCLIENTE);
-            this.HasOptional(t => t.PROPOSITOCHEQUE)
-                .WithMany(t => t.ORDENPAGOCLIENTEDETALLEs)
-                .HasForeignKey(d => d.CODPROPOSITO);
-            this.HasOptional(t => t.TIPOPAGO)
-                .WithMany(t => t.ORDENPAGOCLIENTEDETALLEs)
-                .HasForeignKey(d => d.CODTIPOPAGO);
-
         }
     }
 }

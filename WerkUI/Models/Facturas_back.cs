@@ -3,13 +3,8 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class Factura
+    public class Facturas_back
     {
-        public Factura()
-        {
-            this.FacturaDetalles = new List<FacturaDetalle>();
-        }
-
         public int cod_factura { get; set; }
         public string Nro__Factura { get; set; }
         public Nullable<int> Cod__Liquidación { get; set; }
@@ -37,11 +32,5 @@ namespace WerkUI.Models
         public Nullable<int> Cod__Despachante { get; set; }
         public string Tipo_Factura { get; set; }
         public Nullable<int> cod_moneda { get; set; }
-        public Nullable<decimal> Importe_Gastos { get; set; }
-        public Nullable<decimal> Importe_Honorarios { get; set; }
-        public Nullable<decimal> Importe_Descuentos { get; set; }
-        public Nullable<decimal> Total_IVA { get; set; }
-        public string Timbrado { get; set; }
-        public virtual ICollection<FacturaDetalle> FacturaDetalles { get; set; }
     }
 }

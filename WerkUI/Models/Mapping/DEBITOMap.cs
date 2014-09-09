@@ -8,7 +8,7 @@ namespace WerkUI.Models.Mapping
         public DEBITOMap()
         {
             // Primary Key
-            this.HasKey(t => t.CODDEBITO);
+            this.HasKey(t => new { t.CODDEBITO, t.CODBANCO });
 
             // Properties
             this.Property(t => t.CODDEBITO)
@@ -42,6 +42,9 @@ namespace WerkUI.Models.Mapping
                 .IsFixedLength()
                 .HasMaxLength(60);
 
+            this.Property(t => t.CODBANCO)
+                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
+
             // Table & Column Mappings
             this.ToTable("DEBITOS");
             this.Property(t => t.CODDEBITO).HasColumnName("CODDEBITO");
@@ -68,27 +71,6 @@ namespace WerkUI.Models.Mapping
             this.Property(t => t.CODBANCO).HasColumnName("CODBANCO");
             this.Property(t => t.CODEMPRESA_CHEQUERA).HasColumnName("CODEMPRESA_CHEQUERA");
             this.Property(t => t.ANULADO).HasColumnName("ANULADO");
-
-            // Relationships
-            this.HasRequired(t => t.BANCO)
-                .WithMany(t => t.DEBITOS)
-                .HasForeignKey(d => d.CODBANCO);
-            this.HasOptional(t => t.CHEQUERA)
-                .WithMany(t => t.DEBITOS)
-                .HasForeignKey(d => new { d.CODTIPOCHEQUE, d.CODEMPRESA_CHEQUERA, d.NUMCUENTA, d.CODBANCO });
-            this.HasOptional(t => t.CUENTABANCARIA)
-                .WithMany(t => t.DEBITOS)
-                .HasForeignKey(d => new { d.NUMCUENTA, d.CODBANCO });
-            this.HasOptional(t => t.TIPODEBITO)
-                .WithMany(t => t.DEBITOS)
-                .HasForeignKey(d => d.CODTIPODEBITO);
-            this.HasOptional(t => t.USUARIO)
-                .WithMany(t => t.DEBITOS)
-                .HasForeignKey(d => new { d.CODUSUARIO, d.CODEMPRESA });
-            this.HasOptional(t => t.TIPOCHEQUE)
-                .WithMany(t => t.DEBITOS)
-                .HasForeignKey(d => d.CODTIPOCHEQUE);
-
         }
     }
 }

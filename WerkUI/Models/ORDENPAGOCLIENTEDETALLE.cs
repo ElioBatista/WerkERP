@@ -21,12 +21,5 @@ namespace WerkUI.Models
         public Nullable<decimal> IMPORTEACEPTADO { get; set; }
         public Nullable<decimal> CODVENTA { get; set; }
         public string OBSERVACION { get; set; }
-        public virtual DEBITO DEBITO { get; set; }
-        public virtual DEBITO DEBITO1 { get; set; }
-        public virtual DESPACHOINTERNO DESPACHOINTERNO { get; set; }
-        public virtual MONEDA MONEDA { get; set; }
-        public virtual ORDENPAGOCLIENTE ORDENPAGOCLIENTE { get; set; }
-        public virtual PROPOSITOCHEQUE PROPOSITOCHEQUE { get; set; }
-        public virtual TIPOPAGO TIPOPAGO { get; set; }
     }
 }

@@ -63,7 +63,7 @@ namespace WerkUI.ProFormaFacturacion
                         ((TextBox)PreFacturaFormView.FindControl("new_fechaTB")).Text = DateTime.Now.ToShortDateString();
                         ((TextBox)PreFacturaFormView.FindControl("new_clienteTB")).Text = vLiq.Cliente.Trim();
                         ((TextBox)PreFacturaFormView.FindControl("new_CodClienteTB")).Text = vLiq.CODUSUARIO.ToString();
-                        ((TextBox)PreFacturaFormView.FindControl("new_CodEmpresaTB")).Text = vLiq.CodEmpresa.ToString();
+                        ((TextBox)PreFacturaFormView.FindControl("new_CodEmpresaTB")).Text = vLiq.CODEMPRESA.ToString();
                         ((TextBox)PreFacturaFormView.FindControl("new_num_liquidacionTB")).Text = vLiq.Nro__Liquidación.ToString();
                         ((DropDownList)PreFacturaFormView.FindControl("new_monedaDDL")).SelectedIndex = 1;
                         ((TextBox)PreFacturaFormView.FindControl("new_telefonoTB")).Text = vLiq.Teléfono.Trim();
