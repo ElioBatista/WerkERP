@@ -31,5 +31,10 @@ namespace WerkUI.Core
         {
                 Server.Transfer("~/Facturacion/Facturacion.aspx?num_factura=" + NroFacturaTextBox.Text);            
         }
+
+        protected void OPNewRequestBtn_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("~/OrdenPAgo/OrdenPago.aspx"); 
+        }
     }
 }

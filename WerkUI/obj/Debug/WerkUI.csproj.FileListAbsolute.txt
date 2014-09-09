@@ -138,15 +138,5 @@ C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\WerkUI.dll
 C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\WerkUI.pdb
 C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\Microsoft.Web.Infrastructure.xml
-C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\EntityFramework.xml
-C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\DotNetOpenAuth.Core.xml
-C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\DotNetOpenAuth.OAuth.xml
-C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\DotNetOpenAuth.OAuth.Consumer.xml
-C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\DotNetOpenAuth.OpenId.xml
-C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\DotNetOpenAuth.AspNet.xml
-C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\es\EntityFramework.resources.dll
-C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\es\System.Web.Providers.resources.dll
-C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
 C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\obj\Debug\WerkUI.pdb
 C:\Users\cbalbuena\Documents\GitHub\WerkERP\WerkUI\obj\Debug\WerkUI.csprojResolveAssemblyReference.cache

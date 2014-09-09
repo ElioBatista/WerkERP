@@ -57,10 +57,13 @@
                 </div>
                     </div>
             </div>
-            <h3><a href="#">Contabilidad</a></h3>
+            <h3><a href="#">Administración</a></h3>
             <div>
                 <p>
-                    Funciones y procedimientos para la generación de asientos contables, así como los libros contables y plan de cuentas.
+                    <asp:Panel DefaultButton="OPNewRequestBtn" runat="server" ID="Panel1">
+                        
+                        <asp:Button ID="OPNewRequestBtn" runat="server" CssClass="content-wrapper" Text="Solicitar OP" OnClick="OPNewRequestBtn_Click"  />
+                    </asp:Panel>
                 </p>
             </div>
             <h3><a href="#">Despachos</a></h3>
