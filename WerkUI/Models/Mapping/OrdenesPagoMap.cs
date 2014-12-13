@@ -22,12 +22,18 @@ namespace WerkUI.Models.Mapping
             // Table & Column Mappings
             this.ToTable("OrdenesPago", "Pagos");
             this.Property(t => t.id_orden_pago).HasColumnName("id_orden_pago");
-            this.Property(t => t.cod_comprobante).HasColumnName("cod_comprobante");
             this.Property(t => t.cod_empresa).HasColumnName("cod_empresa");
             this.Property(t => t.nro_comprobante).HasColumnName("nro_comprobante");
             this.Property(t => t.fecha).HasColumnName("fecha");
             this.Property(t => t.aprobado).HasColumnName("aprobado");
             this.Property(t => t.cod_usuario_aprobado).HasColumnName("cod_usuario_aprobado");
+            this.Property(t => t.id_solicitud_orden_pago).HasColumnName("id_solicitud_orden_pago");
+
+            // Relationships
+            this.HasRequired(t => t.SolicitudOrdenPago)
+                .WithMany(t => t.OrdenesPagoes)
+                .HasForeignKey(d => d.id_solicitud_orden_pago);
+
         }
     }
 }

@@ -3,34 +3,28 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace WerkUI.Models.Mapping
 {
-    public class CONCEPTOSLIQUIDACIONMap : EntityTypeConfiguration<CONCEPTOSLIQUIDACION>
+    public class ConceptosLiquidacionMap : EntityTypeConfiguration<ConceptosLiquidacion>
     {
-        public CONCEPTOSLIQUIDACIONMap()
+        public ConceptosLiquidacionMap()
         {
             // Primary Key
-            this.HasKey(t => t.CODCONLIQUIDACION);
+            this.HasKey(t => t.nro_concepto);
 
             // Properties
-            this.Property(t => t.CODCONLIQUIDACION)
-                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
-
-            this.Property(t => t.NUMCONLIQUIDACION)
-                .IsFixedLength()
+            this.Property(t => t.nro_concepto)
+                .IsRequired()
                 .HasMaxLength(5);
 
-            this.Property(t => t.DESCONLIQUIDACION)
-                .IsFixedLength()
-                .HasMaxLength(60);
+            this.Property(t => t.descripcion)
+                .HasMaxLength(128);
 
             // Table & Column Mappings
-            this.ToTable("CONCEPTOSLIQUIDACION");
-            this.Property(t => t.CODCONLIQUIDACION).HasColumnName("CODCONLIQUIDACION");
-            this.Property(t => t.CODUSUARIO).HasColumnName("CODUSUARIO");
-            this.Property(t => t.CODEMPRESA).HasColumnName("CODEMPRESA");
-            this.Property(t => t.NUMCONLIQUIDACION).HasColumnName("NUMCONLIQUIDACION");
-            this.Property(t => t.DESCONLIQUIDACION).HasColumnName("DESCONLIQUIDACION");
-            this.Property(t => t.GRUPOIMPRESION).HasColumnName("GRUPOIMPRESION");
-            this.Property(t => t.FECGRA).HasColumnName("FECGRA");
+            this.ToTable("ConceptosLiquidacion", "Pagos");
+            this.Property(t => t.cod_concepto_liquidacion).HasColumnName("cod_concepto_liquidacion");
+            this.Property(t => t.cod_empresa).HasColumnName("cod_empresa");
+            this.Property(t => t.nro_concepto).HasColumnName("nro_concepto");
+            this.Property(t => t.descripcion).HasColumnName("descripcion");
+            this.Property(t => t.grupo_impresion).HasColumnName("grupo_impresion");
         }
     }
 }

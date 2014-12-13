@@ -4,37 +4,46 @@ using WerkUI.Models.Mapping;
 
 namespace WerkUI.Models
 {
-    public class WerkERPContext : DbContext
+    public partial class WerkERPContext : DbContext
     {
         static WerkERPContext()
         {
             Database.SetInitializer<WerkERPContext>(null);
         }
 
-		public WerkERPContext()
-			: base("Name=WerkERPContext")
-		{
-		}
+        public WerkERPContext()
+            : base("Name=WerkERPContext")
+        {
+        }
 
+        public DbSet<Banco> Bancos { get; set; }
         public DbSet<ConfiguracionRegional> ConfiguracionRegionals { get; set; }
         public DbSet<Idioma> Idiomas { get; set; }
         public DbSet<Moneda> Monedas { get; set; }
         public DbSet<Pais> Paises { get; set; }
         public DbSet<Parametro> Parametros { get; set; }
+        public DbSet<Proveedore> Proveedores { get; set; }
         public DbSet<sysdiagram> sysdiagrams { get; set; }
         public DbSet<ConceptosMarcado> ConceptosMarcados { get; set; }
         public DbSet<FacturaDetalle> FacturaDetalles { get; set; }
         public DbSet<Factura> Facturas { get; set; }
         public DbSet<Facturas_back> Facturas_back { get; set; }
         public DbSet<TipoFactura> TipoFacturas { get; set; }
+        public DbSet<Chequera> Chequeras { get; set; }
+        public DbSet<Cheque> Cheques { get; set; }
+        public DbSet<TiposChequera> TiposChequeras { get; set; }
         public DbSet<LiquidacionDetalle> LiquidacionDetalles { get; set; }
         public DbSet<Liquidacione> Liquidaciones { get; set; }
         public DbSet<ParametrosBusqueda> ParametrosBusquedas { get; set; }
+        public DbSet<ConceptosLiquidacion> ConceptosLiquidacions { get; set; }
+        public DbSet<EstadoSolicitud> EstadoSolicituds { get; set; }
         public DbSet<OrdenesPago> OrdenesPagoes { get; set; }
         public DbSet<OrdenPagoDetalle> OrdenPagoDetalles { get; set; }
+        public DbSet<SolicitudOrdenPago> SolicitudOrdenPagoes { get; set; }
+        public DbSet<SolicitudOrdenPagoDetalle> SolicitudOrdenPagoDetalles { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<CLIENTE> CLIENTES { get; set; }
-        public DbSet<CONCEPTOSLIQUIDACION> CONCEPTOSLIQUIDACIONs { get; set; }
+        public DbSet<CONCEPTOSLIQUIDACION1> CONCEPTOSLIQUIDACION1 { get; set; }
         public DbSet<DEBITO> DEBITOS { get; set; }
         public DbSet<DESPACHANTE> DESPACHANTEs { get; set; }
         public DbSet<DESPACHO> DESPACHOes { get; set; }
@@ -57,25 +66,34 @@ namespace WerkUI.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.Configurations.Add(new BancoMap());
             modelBuilder.Configurations.Add(new ConfiguracionRegionalMap());
             modelBuilder.Configurations.Add(new IdiomaMap());
             modelBuilder.Configurations.Add(new MonedaMap());
             modelBuilder.Configurations.Add(new PaisMap());
             modelBuilder.Configurations.Add(new ParametroMap());
+            modelBuilder.Configurations.Add(new ProveedoreMap());
             modelBuilder.Configurations.Add(new sysdiagramMap());
             modelBuilder.Configurations.Add(new ConceptosMarcadoMap());
             modelBuilder.Configurations.Add(new FacturaDetalleMap());
             modelBuilder.Configurations.Add(new FacturaMap());
             modelBuilder.Configurations.Add(new Facturas_backMap());
             modelBuilder.Configurations.Add(new TipoFacturaMap());
+            modelBuilder.Configurations.Add(new ChequeraMap());
+            modelBuilder.Configurations.Add(new ChequeMap());
+            modelBuilder.Configurations.Add(new TiposChequeraMap());
             modelBuilder.Configurations.Add(new LiquidacionDetalleMap());
             modelBuilder.Configurations.Add(new LiquidacioneMap());
             modelBuilder.Configurations.Add(new ParametrosBusquedaMap());
+            modelBuilder.Configurations.Add(new ConceptosLiquidacionMap());
+            modelBuilder.Configurations.Add(new EstadoSolicitudMap());
             modelBuilder.Configurations.Add(new OrdenesPagoMap());
             modelBuilder.Configurations.Add(new OrdenPagoDetalleMap());
+            modelBuilder.Configurations.Add(new SolicitudOrdenPagoMap());
+            modelBuilder.Configurations.Add(new SolicitudOrdenPagoDetalleMap());
             modelBuilder.Configurations.Add(new UsuarioMap());
             modelBuilder.Configurations.Add(new CLIENTEMap());
-            modelBuilder.Configurations.Add(new CONCEPTOSLIQUIDACIONMap());
+            modelBuilder.Configurations.Add(new CONCEPTOSLIQUIDACION1Map());
             modelBuilder.Configurations.Add(new DEBITOMap());
             modelBuilder.Configurations.Add(new DESPACHANTEMap());
             modelBuilder.Configurations.Add(new DESPACHOMap());

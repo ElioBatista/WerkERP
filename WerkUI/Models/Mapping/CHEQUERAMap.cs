@@ -3,57 +3,37 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace WerkUI.Models.Mapping
 {
-    public class CHEQUERAMap : EntityTypeConfiguration<CHEQUERA>
+    public class ChequeraMap : EntityTypeConfiguration<Chequera>
     {
-        public CHEQUERAMap()
+        public ChequeraMap()
         {
             // Primary Key
-            this.HasKey(t => new { t.CODTIPOCHEQUE, t.CODEMPRESA, t.NUMCUENTA, t.CODBANCO });
+            this.HasKey(t => t.id_chequera);
 
             // Properties
-            this.Property(t => t.CODTIPOCHEQUE)
-                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
-
-            this.Property(t => t.CODEMPRESA)
-                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
-
-            this.Property(t => t.NUMCUENTA)
-                .IsRequired()
-                .IsFixedLength()
-                .HasMaxLength(30);
-
-            this.Property(t => t.NOMREPORT)
-                .HasMaxLength(30);
-
-            this.Property(t => t.CODBANCO)
-                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
+            this.Property(t => t.nro_talon)
+                .HasMaxLength(50);
 
             // Table & Column Mappings
-            this.ToTable("CHEQUERA");
-            this.Property(t => t.CODTIPOCHEQUE).HasColumnName("CODTIPOCHEQUE");
-            this.Property(t => t.CODUSUARIO).HasColumnName("CODUSUARIO");
-            this.Property(t => t.CODEMPRESA).HasColumnName("CODEMPRESA");
-            this.Property(t => t.NUMCUENTA).HasColumnName("NUMCUENTA");
-            this.Property(t => t.RANGO1).HasColumnName("RANGO1");
-            this.Property(t => t.RANGO2).HasColumnName("RANGO2");
-            this.Property(t => t.ULTIMONUMERO).HasColumnName("ULTIMONUMERO");
-            this.Property(t => t.NOMREPORT).HasColumnName("NOMREPORT");
-            this.Property(t => t.CODBANCO).HasColumnName("CODBANCO");
-            this.Property(t => t.CODCOMPROBANTE).HasColumnName("CODCOMPROBANTE");
+            this.ToTable("Chequeras", "Finanzas");
+            this.Property(t => t.id_chequera).HasColumnName("id_chequera");
+            this.Property(t => t.id_banco).HasColumnName("id_banco");
+            this.Property(t => t.fecha_emision).HasColumnName("fecha_emision");
+            this.Property(t => t.serie_inicio).HasColumnName("serie_inicio");
+            this.Property(t => t.serie_fin).HasColumnName("serie_fin");
+            this.Property(t => t.id_tipo_chequera).HasColumnName("id_tipo_chequera");
+            this.Property(t => t.nro_talon).HasColumnName("nro_talon");
 
             // Relationships
-            this.HasRequired(t => t.CUENTABANCARIA)
-                .WithMany(t => t.CHEQUERAs)
-                .HasForeignKey(d => new { d.NUMCUENTA, d.CODBANCO });
-            this.HasRequired(t => t.TIPOCHEQUE)
-                .WithMany(t => t.CHEQUERAs)
-                .HasForeignKey(d => d.CODTIPOCHEQUE);
-            this.HasOptional(t => t.USUARIO)
-                .WithMany(t => t.CHEQUERAs)
-                .HasForeignKey(d => new { d.CODUSUARIO, d.CODEMPRESA });
-            this.HasOptional(t => t.TIPOCOMPROBANTE)
-                .WithMany(t => t.CHEQUERAs)
-                .HasForeignKey(d => d.CODCOMPROBANTE);
+            this.HasRequired(t => t.Banco)
+                .WithMany(t => t.Chequeras)
+                .HasForeignKey(d => d.id_banco);
+            this.HasRequired(t => t.Banco1)
+                .WithMany(t => t.Chequeras1)
+                .HasForeignKey(d => d.id_banco);
+            this.HasRequired(t => t.TiposChequera)
+                .WithMany(t => t.Chequeras)
+                .HasForeignKey(d => d.id_tipo_chequera);
 
         }
     }

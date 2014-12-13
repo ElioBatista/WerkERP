@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class Liquidacione
+    public partial class Liquidacione
     {
         public Liquidacione()
         {

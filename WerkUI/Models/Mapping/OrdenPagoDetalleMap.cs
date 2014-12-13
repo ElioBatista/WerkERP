@@ -28,7 +28,7 @@ namespace WerkUI.Models.Mapping
             this.Property(t => t.cod_tipo_pago).HasColumnName("cod_tipo_pago");
             this.Property(t => t.cod_debito).HasColumnName("cod_debito");
             this.Property(t => t.cod_moneda).HasColumnName("cod_moneda");
-            this.Property(t => t.cod_porposito).HasColumnName("cod_porposito");
+            this.Property(t => t.cod_proposito).HasColumnName("cod_proposito");
             this.Property(t => t.importe).HasColumnName("importe");
             this.Property(t => t.fecha).HasColumnName("fecha");
             this.Property(t => t.importe_aceptado).HasColumnName("importe_aceptado");
@@ -36,6 +36,9 @@ namespace WerkUI.Models.Mapping
             this.Property(t => t.observacion).HasColumnName("observacion");
 
             // Relationships
+            this.HasOptional(t => t.Moneda)
+                .WithMany(t => t.OrdenPagoDetalles)
+                .HasForeignKey(d => d.cod_moneda);
             this.HasRequired(t => t.OrdenesPago)
                 .WithMany(t => t.OrdenPagoDetalles)
                 .HasForeignKey(d => d.id_orden_pago);

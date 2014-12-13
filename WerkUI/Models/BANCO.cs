@@ -3,30 +3,17 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class BANCO
+    public partial class Banco
     {
-        public BANCO()
+        public Banco()
         {
-            this.CAJACHEQUESRECIBIDOS = new List<CAJACHEQUESRECIBIDO>();
-            this.CHEQUERECIBIDOes = new List<CHEQUERECIBIDO>();
-            this.CUENTABANCARIAs = new List<CUENTABANCARIA>();
-            this.DEBITOS = new List<DEBITO>();
+            this.Chequeras = new List<Chequera>();
+            this.Chequeras1 = new List<Chequera>();
         }
 
-        public decimal CODBANCO { get; set; }
-        public Nullable<decimal> CODUSUARIO { get; set; }
-        public Nullable<decimal> CODEMPRESA { get; set; }
-        public string NUMBANCO { get; set; }
-        public string DESBANCO { get; set; }
-        public string DIRECCION { get; set; }
-        public string TELEFONO { get; set; }
-        public string WEB { get; set; }
-        public string EMAIL { get; set; }
-        public Nullable<System.DateTime> FECGRA { get; set; }
-        public virtual USUARIO USUARIO { get; set; }
-        public virtual ICollection<CAJACHEQUESRECIBIDO> CAJACHEQUESRECIBIDOS { get; set; }
-        public virtual ICollection<CHEQUERECIBIDO> CHEQUERECIBIDOes { get; set; }
-        public virtual ICollection<CUENTABANCARIA> CUENTABANCARIAs { get; set; }
-        public virtual ICollection<DEBITO> DEBITOS { get; set; }
+        public int id_banco { get; set; }
+        public string banco1 { get; set; }
+        public virtual ICollection<Chequera> Chequeras { get; set; }
+        public virtual ICollection<Chequera> Chequeras1 { get; set; }
     }
 }

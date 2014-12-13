@@ -49,7 +49,7 @@
                         <asp:Button ID="LiquidacionSearchBtn" runat="server" CssClass="content-wrapper" Text="Buscar" OnClick="LiquidacionSearchBtn_Click" />
                     </asp:Panel>
                 </p>
-                <div id="LiquidacionLeftPanel" class="float-left" width="50%">
+                <div id="LiquidacionLeftPanel" class="float-left">
                     <label id="Label1" runat="server" style="font-size: small">Herramientas</label>
                     <hr />
                 <div style="float: left; width: 300px">
@@ -59,12 +59,12 @@
             </div>
             <h3><a href="#">Administración</a></h3>
             <div>
-                <p>
-                    <asp:Panel DefaultButton="OPNewRequestBtn" runat="server" ID="Panel1">
-                        
-                        <asp:Button ID="OPNewRequestBtn" runat="server" CssClass="content-wrapper" Text="Solicitar OP" OnClick="OPNewRequestBtn_Click"  />
-                    </asp:Panel>
-                </p>
+                <p>                    
+                    <a href="../OrdenPago/RequestOPs.aspx">Solicitud de OP</a>
+                </p> 
+                <p>                    
+                    <a href="../OrdenPago/OP.aspx">Aprobación de OP</a>
+                </p> 
             </div>
             <h3><a href="#">Despachos</a></h3>
             <div>

@@ -15,9 +15,7 @@ namespace WerkUI.Core
             string transformed;
 
             try
-            {
-                //value = Convert.ToDouble(number);
-                //transformed = value.ToString(Session["user.moneda_formato"].ToString(), CultureInfo.InvariantCulture);
+            {                
                 transformed = String.Format(HttpContext.Current.Session["user.moneda_formato"].ToString(), number);
             }
             catch (Exception ex)
@@ -27,6 +25,21 @@ namespace WerkUI.Core
             return transformed;
         }
 
+        public static string GetFormatedDate(object date)
+        {
+            //double value;
+            string transformed;
+
+            try
+            {
+                transformed = String.Format(HttpContext.Current.Session["user.fecha_formato"].ToString(), date);
+            }
+            catch (Exception ex)
+            {
+                transformed = "0";
+            }
+            return transformed;
+        }
 
         public static void ShowAlert(Page currentPage, string message)
         {

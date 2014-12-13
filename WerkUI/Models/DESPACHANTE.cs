@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class DESPACHANTE
+    public partial class DESPACHANTE
     {
         public decimal CODDESPACHANTE { get; set; }
         public Nullable<decimal> CODUSUARIO { get; set; }

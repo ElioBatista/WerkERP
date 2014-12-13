@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class TIPOMOVIMIENTO
+    public partial class TIPOMOVIMIENTO
     {
         public decimal CODTIPOMOVIMIENTO { get; set; }
         public Nullable<decimal> CODUSUARIO { get; set; }

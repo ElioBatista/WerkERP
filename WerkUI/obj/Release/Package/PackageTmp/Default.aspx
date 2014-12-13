@@ -5,7 +5,7 @@
         <div class="content-wrapper">
             <hgroup class="title">
                 <h1><%: Title %>.</h1>
-                <h2>Sistema de Gestión de despachos aduaneros</h2>
+                <h2>Sistema de Gestión de despachos aduaneros - WEB100</h2>
             </hgroup>
             <p>
                 Bienvenido al sistema de gestión de despachos de aduana, los procesos en el sistema estan basados en tareas las cuales se le asignan según su rol operativo. 

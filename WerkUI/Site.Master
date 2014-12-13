@@ -5,10 +5,12 @@
 <head runat="server">
     <link href="CSS/jquery-ui.css" rel="stylesheet" type="text/css" />
     <script src="<%: ResolveUrl("Scripts/jquery-1.5.min.js") %>"></script>
-    <script src=" src="<%: ResolveUrl("Scripts/jquery-ui-1.8.min.js") %>"></script>
+    <script src="<%: ResolveUrl("Scripts/jquery-ui-1.8.min.js") %>"></script>
+    <%--<link href="css/bootstrap.min.css" rel="stylesheet">--%>
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
-    <title><%: Page.Title %> | Balcazz Tecnología</title>
+    <title><%: Page.Title %> | Balcazz HT</title>
     <link href="~/Content/Site.css" rel="stylesheet" />
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <asp:PlaceHolder runat="server">
@@ -28,7 +30,7 @@
         <header>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p class="site-title"><a runat="server" href="~/">Werk | Sallustro Despachos Aduaneros</a></p>
+                    <p class="site-title"><a runat="server" href="~/">Werk | Agencia Sallustro Despachos Aduaneros</a></p>
                 </div>
                 <div class="float-right">
                     <section id="login">
