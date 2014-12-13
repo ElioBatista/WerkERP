@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class V_FACTURAS
+    public partial class V_FACTURAS
     {
         public int cod_factura { get; set; }
         public string Nro__Factura { get; set; }

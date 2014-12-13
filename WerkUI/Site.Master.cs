@@ -76,7 +76,8 @@ namespace WerkUI
                 using (Models.WerkERPContext db = new WerkUI.Models.WerkERPContext())
                 {
                     Models.Moneda moneda = db.Monedas.Find(para);
-                    Session["user.moneda_formato"] = moneda.formato.ToString(); 
+                    Session["user.moneda_formato"] = moneda.formato.ToString();
+                    Session["user.fecha_formato"] = "{0:dd/MM/yyyy}";
                  }
             }
 

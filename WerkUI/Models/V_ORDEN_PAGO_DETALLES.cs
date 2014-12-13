@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class V_ORDEN_PAGO_DETALLES
+    public partial class V_ORDEN_PAGO_DETALLES
     {
         public decimal CODORDENPAGOCLIENTE { get; set; }
         public string NUMDESPACHOINTERNO { get; set; }

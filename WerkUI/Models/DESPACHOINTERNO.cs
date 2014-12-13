@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class DESPACHOINTERNO
+    public partial class DESPACHOINTERNO
     {
         public decimal CODDESPACHOINTERNO { get; set; }
         public string NUMDESPACHOINTERNO { get; set; }

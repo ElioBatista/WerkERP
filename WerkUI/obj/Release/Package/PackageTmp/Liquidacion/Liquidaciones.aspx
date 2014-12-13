@@ -25,78 +25,32 @@
 
                 <p>
                     <asp:HiddenField  ID="hiddenCodCliente" runat="server"/>
+                    <asp:Panel runat="server" ID="LiquidacionesPanel" DefaultButton="LiquidacionSearchButton">
                     <asp:TextBox ID="LiquidacionesSearchTextBox" runat="server"></asp:TextBox>
                     <asp:Button ID="LiquidacionSearchButton" runat="server" Text="Buscar" 
                         onclick="LiquidacionSearchButton_Click"></asp:Button>
+                        </asp:Panel>
+
                     <asp:DetailsView ID="dvwLiquidaciones" runat="server" AutoGenerateRows="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="Cod Liquidacion" DataSourceID="LiquidacionesDataSource" Font-Names="Segoe UI" Font-Size="Small" ForeColor="Black" GridLines="Horizontal" Height="50px" Width="500px">
                         <EditRowStyle BackColor="#CC3333" Font-Bold="True" ForeColor="White" />
                         <Fields>
-                            <asp:TemplateField HeaderText="Cod. Liquidación">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblCodLiquidacion" runat="server" Text='<%# Eval("[Cod Liquidacion]") %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="Nro. Liquidación">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblNroLiquidacion" runat="server" Text='<%# Eval("[Nro Liquidacion]") %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="Nro. Despacho">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblNroDespacho" runat="server" Text='<%# Eval("[Nro Despacho]") %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="Nro. Despacho Interno">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblNroDespachointerno" runat="server" Text='<%# Eval("[Nro Despacho Interno]") %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:BoundField DataField="Fecha" HeaderText="Fecha" SortExpression="Fecha" />
-                            <asp:TemplateField HeaderText="Usuario">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblUsuario" runat="server" Text='<%# Eval("[Usuario]") %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="Empresa">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblEmpresa" runat="server" Text='<%# Eval("Empresa") %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="Cierre">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblCierre" runat="server" Text='<%# Eval("Cierre") %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="Total">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblTotal" runat="server" Text='<%# WerkUI.Core.Util.GetFormatedNumber(Eval("Total")) %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="IVA Gastos">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblIvaGastos" runat="server" Text='<%# WerkUI.Core.Util.GetFormatedNumber(Eval("IVA Gastos")) %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="IVA Honorarios">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblIvaHonorarios" runat="server" Text='<%# WerkUI.Core.Util.GetFormatedNumber(Eval("IVA Honorarios")) %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="IVA Retención">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblIvaRetencion" runat="server" Text='<%# WerkUI.Core.Util.GetFormatedNumber(Eval("IVA Retención")) %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="IVA Retención Gastos">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblIvaRetencionGastos" runat="server" Text='<%# WerkUI.Core.Util.GetFormatedNumber(Eval("IVA Retención Gastos")) %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="IVA Retención Honorarios">
-                                <ItemTemplate>
-                                    <asp:Label ID="lblIvaRetencionHonorarios" runat="server" Text='<%# WerkUI.Core.Util.GetFormatedNumber(Eval("IVA Retención Honorarios")) %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
+                            <asp:BoundField DataField="Cod Liquidacion" HeaderText="Cod Liquidacion" SortExpression="Cod Liquidacion" ReadOnly="True" />
+                            <asp:BoundField DataField="Nro Liquidacion" HeaderText="Nro Liquidacion" SortExpression="Nro Liquidacion" />
+                            <asp:BoundField DataField="Nro Despacho" HeaderText="Nro Despacho" SortExpression="Nro Despacho" />
+                            <asp:BoundField DataField="Nro Despacho Interno" HeaderText="Nro Despacho Interno" SortExpression="Nro Despacho Interno" />
+                            <asp:BoundField DataField="Fecha" DataFormatString="{0:d}" HeaderText="Fecha" SortExpression="Fecha" />
+                
+                            <asp:BoundField DataField="Usuario" HeaderText="Usuario" SortExpression="Usuario" />
+                            <asp:BoundField DataField="Empresa" HeaderText="Empresa" ReadOnly="True" SortExpression="Empresa" />
+                            <asp:BoundField DataField="Estado" HeaderText="Estado" SortExpression="Estado" />
+                            <asp:BoundField DataField="Cierre" DataFormatString="{0:d}" HeaderText="Cierre" SortExpression="Cierre" />
+                            <asp:BoundField DataField="Total" HeaderText="Total" SortExpression="Total" DataFormatString="{0:#,#}"/>
+                            <asp:BoundField DataField="IVA Gastos" HeaderText="IVA Gastos" SortExpression="IVA Gastos" DataFormatString="{0:#,#}" />
+                            <asp:BoundField DataField="IVA Honorarios" HeaderText="IVA Honorarios" SortExpression="IVA Honorarios" DataFormatString="{0:#,#}"/>
+                            <asp:BoundField DataField="IVA Retención" HeaderText="IVA Retención" SortExpression="IVA Retención" DataFormatString="{0:#,#}"/>
+                            <asp:BoundField DataField="IVA Retención Gastos" HeaderText="IVA Retención Gastos" SortExpression="IVA Retención Gastos" DataFormatString="{0:#,#}"/>
+                            <asp:BoundField DataField="IVA Retención Honorarios" HeaderText="IVA Retención Honorarios" SortExpression="IVA Retención Honorarios" DataFormatString="{0:#,#}"/>
+                            <asp:BoundField DataField="Despachante" HeaderText="Despachante" ReadOnly="True" SortExpression="Despachante" />
                         </Fields>
                         <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
                         <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
@@ -104,7 +58,7 @@
                     </asp:DetailsView>
                 </p>
                 <p>
-                    <asp:SqlDataSource ID="LiquidacionesDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:WerkERPContext %>" SelectCommand="SELECT LIQUIDACIONCABECERA.CODLIQUIDACION AS [Cod Liquidacion], LIQUIDACIONCABECERA.NUMLIQUIDACION AS [Nro Liquidacion], DESPACHO.NUMDESPACHO AS [Nro Despacho], DESPACHOINTERNO.NUMDESPACHOINTERNO AS [Nro Despacho Interno], LIQUIDACIONCABECERA.FECHALIQUIDACION AS Fecha, LIQUIDACIONCABECERA.IMPORTETOTAL AS Total, USUARIO.DESUSUARIO AS Usuario, EMPRESA.DESEMPRESA AS Empresa, LIQUIDACIONCABECERA.ESTADO AS Estado, LIQUIDACIONCABECERA.FECHACIERRE AS Cierre, LIQUIDACIONCABECERA.IMPORTEIVAGASTOS AS [IVA Gastos], LIQUIDACIONCABECERA.IMPORTEIVAHONORARIOS AS [IVA Honorarios], LIQUIDACIONCABECERA.PORRETENCIONIVA AS [IVA Retención], LIQUIDACIONCABECERA.RETIVAGASTOS AS [IVA Retención Gastos], LIQUIDACIONCABECERA.RETIVAHONORARIOS AS [IVA Retención Honorarios] FROM LIQUIDACIONCABECERA LEFT OUTER JOIN DESPACHOINTERNO ON LIQUIDACIONCABECERA.CODDESPACHOINTERNO = DESPACHOINTERNO.CODDESPACHOINTERNO LEFT OUTER JOIN USUARIO ON LIQUIDACIONCABECERA.CODUSUARIO = USUARIO.CODUSUARIO LEFT OUTER JOIN EMPRESA ON LIQUIDACIONCABECERA.CODEMPRESA = EMPRESA.CODEMPRESA LEFT OUTER JOIN DESPACHO ON LIQUIDACIONCABECERA.CODDESPACHO = DESPACHO.CODDESPACHO WHERE (LIQUIDACIONCABECERA.NUMLIQUIDACION = @p_num_liquidacion)">
+                    <asp:SqlDataSource ID="LiquidacionesDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:WerkERPContext %>" SelectCommand="SELECT LIQUIDACIONCABECERA.CODLIQUIDACION AS [Cod Liquidacion], LIQUIDACIONCABECERA.NUMLIQUIDACION AS [Nro Liquidacion], DESPACHO.NUMDESPACHO AS [Nro Despacho], DESPACHOINTERNO.NUMDESPACHOINTERNO AS [Nro Despacho Interno], LIQUIDACIONCABECERA.FECHALIQUIDACION AS Fecha, LIQUIDACIONCABECERA.IMPORTETOTAL AS Total, USUARIO.DESUSUARIO AS Usuario, CLIENTES.APELLIDO + ', ' + CLIENTES.NOMBRE AS Empresa, LIQUIDACIONCABECERA.ESTADO AS Estado, LIQUIDACIONCABECERA.FECHACIERRE AS Cierre, LIQUIDACIONCABECERA.IMPORTEIVAGASTOS AS [IVA Gastos], LIQUIDACIONCABECERA.IMPORTEIVAHONORARIOS AS [IVA Honorarios], LIQUIDACIONCABECERA.PORRETENCIONIVA AS [IVA Retención], LIQUIDACIONCABECERA.RETIVAGASTOS AS [IVA Retención Gastos], LIQUIDACIONCABECERA.RETIVAHONORARIOS AS [IVA Retención Honorarios], RTRIM(LTRIM(DESPACHANTE.APELLIDO)) + ', ' + RTRIM(LTRIM(DESPACHANTE.NOMBRE)) AS Despachante FROM DESPACHANTE RIGHT OUTER JOIN DESPACHOINTERNO ON DESPACHANTE.CODDESPACHANTE = DESPACHOINTERNO.CODDESPACHANTE RIGHT OUTER JOIN LIQUIDACIONCABECERA ON DESPACHOINTERNO.CODDESPACHOINTERNO = LIQUIDACIONCABECERA.CODDESPACHOINTERNO LEFT OUTER JOIN USUARIO ON LIQUIDACIONCABECERA.CODUSUARIO = USUARIO.CODUSUARIO LEFT OUTER JOIN EMPRESA ON LIQUIDACIONCABECERA.CODEMPRESA = EMPRESA.CODEMPRESA LEFT OUTER JOIN DESPACHO ON LIQUIDACIONCABECERA.CODDESPACHO = DESPACHO.CODDESPACHO LEFT OUTER JOIN CLIENTES ON DESPACHOINTERNO.CODCLIENTE = CLIENTES.CODCLIENTE WHERE (LIQUIDACIONCABECERA.NUMLIQUIDACION = @p_num_liquidacion)">
                         <SelectParameters>
                             <asp:ControlParameter ControlID="LiquidacionesSearchTextBox" Name="p_num_liquidacion" PropertyName="Text" />
                         </SelectParameters>
@@ -142,6 +96,24 @@
                             <asp:ControlParameter ControlID="dvwLiquidaciones" Name="CODLIQUIDACION" PropertyName="SelectedValue" Type="Decimal" />
                         </SelectParameters>
                     </asp:SqlDataSource>
+                </p>
+                <p>
+                    <asp:DetailsView ID="TotalesDetailsView" runat="server" Height="50px" Width="593px" AutoGenerateRows="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="Cod Liquidacion" DataSourceID="LiquidacionesDataSource" ForeColor="Black" GridLines="Horizontal">
+                        <EditRowStyle BackColor="#CC3333" Font-Bold="True" ForeColor="White" />
+                        <Fields>
+                            <asp:BoundField DataField="Total" DataFormatString="{0:0,#}" HeaderText="Total" SortExpression="Total" />
+                            <asp:BoundField DataField="IVA Gastos" DataFormatString="{0:0,#}" HeaderText="IVA Gastos" SortExpression="IVA Gastos" />
+                            <asp:BoundField DataField="IVA Honorarios" DataFormatString="{0:0,#}" HeaderText="IVA Honorarios" SortExpression="IVA Honorarios" />
+                            <asp:BoundField DataField="IVA Retención" DataFormatString="{0:0,#}" HeaderText="IVA Retención" SortExpression="IVA Retención" />
+                            <asp:BoundField DataField="IVA Retención Gastos" DataFormatString="{0:0,#}" HeaderText="IVA Retención Gastos" SortExpression="IVA Retención Gastos" />
+                            <asp:BoundField DataField="IVA Retención Honorarios" DataFormatString="{0:0,#}" HeaderText="IVA Retención Honorarios" SortExpression="IVA Retención Honorarios" />
+                        
+                        </Fields>
+                        <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
+                        <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
+                        <PagerStyle BackColor="White" ForeColor="Black" HorizontalAlign="Right" />
+                    </asp:DetailsView>
+
                 </p>
             </div>
         </div>

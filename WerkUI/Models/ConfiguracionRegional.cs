@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class ConfiguracionRegional
+    public partial class ConfiguracionRegional
     {
         public int cod_configuracion { get; set; }
         public int cod_usuario { get; set; }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class FacturaDetalle
+    public partial class FacturaDetalle
     {
         public int cod_factura { get; set; }
         public Nullable<int> Cod__Liquidación { get; set; }

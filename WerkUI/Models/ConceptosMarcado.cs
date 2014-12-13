@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class ConceptosMarcado
+    public partial class ConceptosMarcado
     {
         public int Cod__Liquidación { get; set; }
         public int Cod__Concepto { get; set; }

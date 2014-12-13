@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class sysdiagram
+    public partial class sysdiagram
     {
         public string name { get; set; }
         public int principal_id { get; set; }

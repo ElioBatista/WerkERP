@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class PROPOSITOCHEQUE
+    public partial class PROPOSITOCHEQUE
     {
         public decimal CODPROPOSITO { get; set; }
         public Nullable<decimal> CODCONLIQUIDACION { get; set; }

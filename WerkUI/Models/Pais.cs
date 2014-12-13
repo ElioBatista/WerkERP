@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class Pais
+    public partial class Pais
     {
         public Pais()
         {

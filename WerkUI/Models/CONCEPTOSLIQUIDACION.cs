@@ -3,14 +3,18 @@ using System.Collections.Generic;
 
 namespace WerkUI.Models
 {
-    public class CONCEPTOSLIQUIDACION
+    public partial class ConceptosLiquidacion
     {
-        public decimal CODCONLIQUIDACION { get; set; }
-        public Nullable<decimal> CODUSUARIO { get; set; }
-        public Nullable<decimal> CODEMPRESA { get; set; }
-        public string NUMCONLIQUIDACION { get; set; }
-        public string DESCONLIQUIDACION { get; set; }
-        public Nullable<byte> GRUPOIMPRESION { get; set; }
-        public Nullable<System.DateTime> FECGRA { get; set; }
+        public ConceptosLiquidacion()
+        {
+            this.SolicitudOrdenPagoDetalles = new List<SolicitudOrdenPagoDetalle>();
+        }
+
+        public decimal cod_concepto_liquidacion { get; set; }
+        public Nullable<decimal> cod_empresa { get; set; }
+        public string nro_concepto { get; set; }
+        public string descripcion { get; set; }
+        public Nullable<byte> grupo_impresion { get; set; }
+        public virtual ICollection<SolicitudOrdenPagoDetalle> SolicitudOrdenPagoDetalles { get; set; }
     }
 }
