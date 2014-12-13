@@ -46,7 +46,7 @@
                     <tr>
                        
                         <td>
-                            <asp:Label ID="lblNroDI" runat="server" Text='<%# Item.nro_despacho_interno%>' />
+                            <asp:Label ID="lblNroDI" runat="server" Text='<%# GetDIClient( Item.nro_despacho_interno.ToString())%>' />
                         </td>
                         <td>
                             <asp:Label ID="lblConcepto" runat="server" Text='<%#  GetConceptByNumber(Item.nro_concepto) %>'  />
