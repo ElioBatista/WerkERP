@@ -39,6 +39,30 @@ namespace WerkUI.OrdenPago
                 return null;
             }
         }
+
+
+        public String GetDIClient(String DI)
+        {
+            decimal codCLiente;
+            try
+            {
+
+                var db = new WerkERPContext();
+                var query = db.DESPACHOINTERNOes.Where(s => s.NUMDESPACHOINTERNO == DI).SingleOrDefault();
+                codCLiente = Convert.ToDecimal(query.CODCLIENTE);
+                var clientQuery = db.CLIENTES.Where(c => c.CODCLIENTE == codCLiente).SingleOrDefault();
+
+                return query.NUMDESPACHOINTERNO + " - " + clientQuery.APELLIDO;
+            }
+            catch (Exception exp)
+            {
+                ErrorLabel.Text = exp.Message;
+                ErrorLabel.Visible = true;
+                return null;
+            }
+        }
+
+
         public IQueryable<WerkUI.Models.SolicitudOrdenPagoDetalle> GetRequestOPDetails()
         {
             try
