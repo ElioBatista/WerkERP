@@ -173,3 +173,4 @@ C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\Microsoft.Web.Infrastruct
 C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
 C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\obj\Debug\WerkUI.dll
 C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\obj\Debug\WerkUI.pdb
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\obj\Debug\WerkUI.csprojResolveAssemblyReference.cache

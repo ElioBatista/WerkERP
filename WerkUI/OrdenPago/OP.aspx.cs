@@ -129,6 +129,25 @@ namespace WerkUI.OrdenPago
             { return ""; }
         }
 
+        public static int GetUserID(object usuario)
+        {          
+            try
+            {                
+                var db = new WerkERPContext();
+                var query = db.Usuarios.Where(s => s.usuario1 == usuario).SingleOrDefault();
+                if (query.usuario1.ToString() != "")
+                {
+                    return query.cod_usuario;
+                }
+                else
+                {
+                    return -1;
+                }
+            }
+            catch (Exception ex)
+            { return -1; }
+         }
+
 
         public void InsertRequestOP()
         {
@@ -142,6 +161,7 @@ namespace WerkUI.OrdenPago
                 {
                     solicitudOP.id_estado = 1;
                     solicitudOP.fecha_solicitud = DateTime.Now;
+                    solicitudOP.cod_usuario = GetUserID(User.Identity.Name);
 
                     if (VerifyNroOP(solicitudOP.nro_comprobante.ToString()))
                     {
