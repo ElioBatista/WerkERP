@@ -213,4 +213,37 @@
             </div>
         </ContentTemplate>
     </asp:UpdatePanel>
+    <asp:UpdatePanel ID="upnlSearchConcepts" runat="server">
+        <ContentTemplate>
+            <div  class="message-info">
+                <asp:Label runat="server" Text="Concepto"></asp:Label>
+                <asp:TextBox ID="ConceptoTB" runat="server" ></asp:TextBox>
+            </div>
+            <div>
+                <asp:GridView ID="ConceptosGridView" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="CODCONLIQUIDACION" DataSourceID="Conceptos" ForeColor="Black" GridLines="Vertical">
+                    <AlternatingRowStyle BackColor="White" />
+                    <Columns>
+                        <asp:BoundField DataField="CODCONLIQUIDACION" HeaderText="Id." ReadOnly="True" SortExpression="CODCONLIQUIDACION" />
+                        <asp:BoundField DataField="NUMCONLIQUIDACION" HeaderText="Nro. Concepto" SortExpression="NUMCONLIQUIDACION" />
+                        <asp:BoundField DataField="DESCONLIQUIDACION" HeaderText="Concepto" SortExpression="DESCONLIQUIDACION" />
+                        <asp:BoundField DataField="GRUPOIMPRESION" HeaderText="Grupo" SortExpression="GRUPOIMPRESION" />
+                    </Columns>
+                    <FooterStyle BackColor="#CCCC99" />
+                    <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
+                    <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Right" />
+                    <RowStyle BackColor="#F7F7DE" />
+                    <SelectedRowStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
+                    <SortedAscendingCellStyle BackColor="#FBFBF2" />
+                    <SortedAscendingHeaderStyle BackColor="#848384" />
+                    <SortedDescendingCellStyle BackColor="#EAEAD3" />
+                    <SortedDescendingHeaderStyle BackColor="#575357" />
+                </asp:GridView>
+                <asp:SqlDataSource ID="Conceptos" runat="server" ConnectionString="<%$ ConnectionStrings:WerkERPContext %>" SelectCommand="select * from [dbo].[CONCEPTOSLIQUIDACION] where desconliquidacion like '%' +@p_concepto + '%'">
+                    <SelectParameters>
+                        <asp:ControlParameter ControlID="ConceptoTB" Name="p_concepto" PropertyName="Text" />
+                    </SelectParameters>
+                </asp:SqlDataSource>
+            </div>
+        </ContentTemplate>
+    </asp:UpdatePanel>
 </asp:Content>
