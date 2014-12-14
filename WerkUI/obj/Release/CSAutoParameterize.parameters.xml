@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="WerkERPConnectionString-Web.config Connection String" description="WerkERPConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=(local);Initial Catalog=WerkERP;Integrated Security=True" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\vsian\\Desktop\\WerkERP\\WerkERP\\WerkUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WerkERPConnectionString']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\cbalb_000\\Documents\\GitHub\\WerkERP\\WerkUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WerkERPConnectionString']/@connectionString" />
   </parameter>
   <parameter name="WerkERPContext-Web.config Connection String" description="WerkERPContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=aibsql.cloudapp.net;Initial Catalog=WerkERP;Persist Security Info=True;User ID=werk_web;Password=Passw0rd;MultipleActiveResultSets=True" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\vsian\\Desktop\\WerkERP\\WerkERP\\WerkUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WerkERPContext']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\cbalb_000\\Documents\\GitHub\\WerkERP\\WerkUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WerkERPContext']/@connectionString" />
   </parameter>
   <parameter name="SallustroContext-Web.config Connection String" description="SallustroContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(local);Initial Catalog=Sallustro;Integrated Security=True;MultipleActiveResultSets=True" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\vsian\\Desktop\\WerkERP\\WerkERP\\WerkUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SallustroContext']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\cbalb_000\\Documents\\GitHub\\WerkERP\\WerkUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SallustroContext']/@connectionString" />
   </parameter>
 </parameters>

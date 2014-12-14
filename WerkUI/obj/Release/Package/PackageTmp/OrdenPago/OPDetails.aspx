@@ -51,7 +51,7 @@
                             <asp:CheckBox ID="chkConcept" runat="server" />
                         </td>
                         <td style="width: 40px">
-                            <asp:Label ID="lblNroDI" runat="server" Text='<%# Item.nro_despacho_interno%>' />
+                            <asp:Label ID="lblNroDI" runat="server" Text='<%# GetDIClient( Item.nro_despacho_interno.ToString())%>' />
                         </td>
                         <td style="width: 200px">
                             <asp:Label ID="lblConcepto" runat="server" Text='<%#  GetConceptByNumber(Item.nro_concepto) %>' />
@@ -168,7 +168,8 @@
                 <asp:Button ID="AsignarChequeBtn" runat="server" Text="Asignar Cheque" OnClick="AsignarChequeBtn_Click" />
             </div>
             <div>
-                <asp:GridView ID="ChequesAsignadosGridView" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="ChequesAsignados" ForeColor="Black" GridLines="Horizontal" AutoGenerateColumns="False" OnRowDataBound="ChequesAsignadosGridView_RowDataBound" OnRowCommand="ChequesAsignadosGridView_RowCommand">
+                <asp:GridView ID="ChequesAsignadosGridView" runat="server" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="ChequesAsignados" ForeColor="Black" GridLines="Vertical" AutoGenerateColumns="False" OnRowDataBound="ChequesAsignadosGridView_RowDataBound" OnRowCommand="ChequesAsignadosGridView_RowCommand" Width="100%">
+                    <AlternatingRowStyle BackColor="White" />
                     <Columns>
                         <asp:BoundField DataField="id_solicitud_orden_pago_detalle" HeaderText="Id." SortExpression="id_solicitud_orden_pago_detalle" />
                          <asp:TemplateField HeaderText="Cheque Nro.">
@@ -194,14 +195,15 @@
                         <asp:BoundField DataField="nro_talon" HeaderText="Nro. Talon" SortExpression="nro_talon" />
                          <asp:ButtonField Text="Eliminar" CommandName="Eliminar" />
                     </Columns>
-                    <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
-                    <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
-                    <PagerStyle BackColor="White" ForeColor="Black" HorizontalAlign="Right" />
-                    <SelectedRowStyle BackColor="#CC3333" Font-Bold="True" ForeColor="White" />
-                    <SortedAscendingCellStyle BackColor="#F7F7F7" />
-                    <SortedAscendingHeaderStyle BackColor="#4B4B4B" />
-                    <SortedDescendingCellStyle BackColor="#E5E5E5" />
-                    <SortedDescendingHeaderStyle BackColor="#242121" />
+                    <FooterStyle BackColor="#CCCC99" />
+                    <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
+                    <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Right" />
+                    <RowStyle BackColor="#F7F7DE" />
+                    <SelectedRowStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
+                    <SortedAscendingCellStyle BackColor="#FBFBF2" />
+                    <SortedAscendingHeaderStyle BackColor="#848384" />
+                    <SortedDescendingCellStyle BackColor="#EAEAD3" />
+                    <SortedDescendingHeaderStyle BackColor="#575357" />
                 </asp:GridView>
                 <asp:SqlDataSource ID="ChequesAsignados" runat="server" ConnectionString="<%$ ConnectionStrings:WerkERPContext %>" SelectCommand="sp_obtener_cheques_asignados_por_op" SelectCommandType="StoredProcedure" OnSelected="ChequesAsignados_Selected">
                     <SelectParameters>

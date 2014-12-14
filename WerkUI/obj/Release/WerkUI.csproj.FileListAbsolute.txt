@@ -80,3 +80,17 @@ C:\Users\vsian\Desktop\WerkERP\WerkERP\WerkUI\bin\es\Microsoft.AspNet.Membership
 C:\Users\vsian\Desktop\WerkERP\WerkERP\WerkUI\obj\Release\WerkUI.csprojResolveAssemblyReference.cache
 C:\Users\vsian\Desktop\WerkERP\WerkERP\WerkUI\obj\Release\WerkUI.dll
 C:\Users\vsian\Desktop\WerkERP\WerkERP\WerkUI\obj\Release\WerkUI.pdb
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\WerkUI.dll.config
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\WerkUI.dll
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\WerkUI.pdb
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\EntityFramework.dll
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\EntityFramework.xml
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\obj\Release\WerkUI.csprojResolveAssemblyReference.cache
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\obj\Release\WerkUI.dll
+C:\Users\cbalb_000\Documents\GitHub\WerkERP\WerkUI\obj\Release\WerkUI.pdb
