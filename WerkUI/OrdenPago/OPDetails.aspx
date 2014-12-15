@@ -215,7 +215,8 @@
     </asp:UpdatePanel>
     <asp:UpdatePanel ID="upnlSearchConcepts" runat="server">
         <ContentTemplate>
-            <div  class="message-info">
+            <div id="SearchConceptsWindow" class="modal">
+            <div  >
                 <asp:Label runat="server" Text="Concepto"></asp:Label>
                 <asp:TextBox ID="ConceptoTB" runat="server" ></asp:TextBox>
             </div>
@@ -244,6 +245,7 @@
                     </SelectParameters>
                 </asp:SqlDataSource>
             </div>
+                </div>
         </ContentTemplate>
     </asp:UpdatePanel>
 </asp:Content>

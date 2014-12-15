@@ -6,7 +6,7 @@
     <link href="CSS/jquery-ui.css" rel="stylesheet" type="text/css" />
     <script src="<%: ResolveUrl("Scripts/jquery-1.5.min.js") %>"></script>
     <script src="<%: ResolveUrl("Scripts/jquery-ui-1.8.min.js") %>"></script>
-    <%--<link href="css/bootstrap.min.css" rel="stylesheet">--%>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
